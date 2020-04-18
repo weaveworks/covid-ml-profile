@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fk-covid-net-api
-        image: chanwit/fk-covid-net-api@sha256:603fe68a96bda011435e09b4d6a064f3523d98ffdde2d239e9268aae0de2e6fa
+        image: chanwit/fk-covid-net-api@sha256:586027c872fb678ea3e43f32da3c4a85ed1357c3461ee15497fb9f0a702408c8
         ports:
         - containerPort: 8080
         env:
