@@ -1,6 +1,8 @@
 # This file is auto-genearted by gitops-profile tool.
 # Filename: .eksctlignore
 
-covid-ml-profile.yaml
+gitops-profile.yaml
+.eksctlignore
+.wksctlignore
 firekube/
 components/
