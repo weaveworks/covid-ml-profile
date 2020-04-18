@@ -2,7 +2,6 @@
 # Filename: .eksctlignore
 
 gitops-profile.yaml
-
 .wksctlignore
 firekube/
 components/
