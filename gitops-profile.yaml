@@ -8,11 +8,13 @@ spec:
     includes:
     - '**/*'
     excludes:
+    - 'README.md'
     - 'firekube/'
     - 'components/'
   - name: wksctl
     includes:
     - '**/*'
     excludes:
+    - 'README.md'
     - 'eks/'
     - 'components/'

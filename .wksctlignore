@@ -4,5 +4,6 @@
 gitops-profile.yaml
 .eksctlignore
 .wksctlignore
+README.md
 eks/
 components/

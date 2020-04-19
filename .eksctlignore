@@ -3,5 +3,6 @@
 
 gitops-profile.yaml
 .wksctlignore
+README.md
 firekube/
 components/
