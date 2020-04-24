@@ -3,18 +3,29 @@ kind: Profile
 metadata:
   name: covid-ml-profile
 spec:
-  filters:
-  - name: eksctl
+  platforms:
+  - name: eks
     includes:
     - '**/*'
     excludes:
     - 'README.md'
     - 'firekube/'
+    - 'aks/'
     - 'components/'
-  - name: wksctl
+  - name: firekube
     includes:
     - '**/*'
     excludes:
     - 'README.md'
     - 'eks/'
+    - 'aks/'
+    - 'components/'
+  - name: aks
+    includes:
+    - '**/*'
+    excludes:
+    - 'README.md'
+    - 'minio.yaml'
+    - 'eks/'
+    - 'firekube/'
     - 'components/'
